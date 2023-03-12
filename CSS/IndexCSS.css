@@ -26,7 +26,7 @@ body{
     padding: 0.5vw 1vw 0.3vw 1vw;
     margin: auto;
     color: #AC3B61;
-    font-size: 1.1vw;
+    font-size: 1.5vw;
 }
 
 .navigation a:hover{
@@ -87,12 +87,33 @@ img {
     color: #123c69;
     font-weight: bold;
 }
-@media screen and (max-width: 768px) {
- body {
-    font-size: 3vw;
+@media screen and (max-width: 968px) {
+ .navigation a {
+    font-size: 3.5vw;
+    }
+ #what h2{
+    font-size: 4vw;
+    color: #AC3B61;
+    }
+ #what p{
+    font-size: 3.5vw;
+    color: #123c69;
+    font-weight: bold;
+    }
+  #why h2{
+    font-size: 4vw;
+    color: #AC3B61;   
+    }
+  
+  #paragraphs{
+    background-color: #EDC7B7;
+    background-size: contain;
+    left: 85vw;
+    right: 10vw;
+    border-radius: 0.7vw;
+    background-position: center;
+    margin-right: 10vw;
+    margin-left: 10vw;
+    box-shadow: 0.1vw 0.1vw 1vw 1vw #EDC9B9;
   }
 
-@media screen and (min-width: 768px) {
- body {
-    font-size: 1.1vw;
-  }
