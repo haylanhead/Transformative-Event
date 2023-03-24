@@ -1,0 +1,117 @@
+body{
+    background: #EDC7B7;
+    margin:0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-family: monospace;
+    overflow: hidden;
+
+}
+
+}
+.navigation{
+    background-color: #EDC7B7;
+}
+
+.navigation li{
+    position: relative;
+    display: inline;
+    width: auto;
+
+}
+
+.navigation a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.5vw 1vw 0.3vw 1vw;
+    margin: auto;
+    color: #AC3B61;
+    font-size: 1.5vw;
+}
+
+.navigation a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: auto;
+    text-decoration-color: black;
+}
+
+img {
+    border-radius: 50%;
+    padding:2% 0%;
+    max-width: 100%;
+    height: auto;
+}
+
+#title{
+    font-size: larger;
+    color: #AC3B61;
+}
+.paragraphBlock{
+    background-color: #f2d7cb;
+    padding-bottom: 20vw;
+    padding-top: 5px;
+}
+
+#paragraphs{
+    background-color: #EDC7B7;
+    background-size: contain;
+    left: 85vw;
+    right: 10vw;
+    border-radius: 0.7vw;
+    background-position: center;
+    margin-right: 10vw;
+    margin-left: 10vw;
+    box-shadow: 0.1vw 0.1vw 0.5vw 0.5vw #EDC9B9;
+}
+
+#what h2{
+    font-size: 1.5vw;
+    color: #AC3B61;
+}
+
+#what p{
+    font-size: larger;
+    color: #123c69;
+    font-weight: bolder;
+}
+
+
+#why h2{
+    font-size: 1.5vw;
+    color: #AC3B61;
+}
+
+#why p{
+    font-size: larger;
+    color: #123c69;
+    font-weight: bolder;
+}
+@media screen and (max-width: 968px) {
+ .navigation a {
+    font-size: 3.5vw;
+    }
+ #what h2{
+    font-size: 4vw;
+    color: #AC3B61;
+    }
+ #what p{
+    font-size: larger;
+    color: #123c69;
+    }
+  #why h2{
+    font-size: 4vw;
+    color: #AC3B61;
+    }
+
+  #paragraphs{
+    background-color: #EDC7B7;
+    background-size: contain;
+    left: 85vw;
+    right: 10vw;
+    border-radius: 0.7vw;
+    background-position: center;
+    margin-right: 10vw;
+    margin-left: 10vw;
+    box-shadow: 0.1vw 0.1vw 1vw 1vw #EDC9B9;
+  }
