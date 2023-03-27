@@ -71,3 +71,23 @@ ul{
 .timeList{
     text-decoration: none;
 }
+
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  .navigation {
+    padding: 10px;
+  }
+
+  .navigation a {
+    font-size: 3.58vw;
+    padding: 0.3em;
+  }
+
+  #paragraphBlock h2 {
+    font-size: 18px;
+  }
+}
